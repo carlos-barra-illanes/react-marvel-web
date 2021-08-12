@@ -23,8 +23,8 @@ export default function Login() {
 
             {!user &&
                 <>
-                    <div className="text-center d-inline-block">
-                        <a className="fh5co_display_table"><div className="fh5co_verticle_middle"><i className="fa fa-search"></i></div></a>
+                    <div className="text-center d-inline-block">                    
+                        <a href="./inicio" className="fh5co_display_table" ><div className="fh5co_verticle_middle"><i className="fa fa-home"></i></div></a>
                     </div>
                     <div className="text-center d-inline-block">
                         <a className="fh5co_display_table"><div className="fh5co_verticle_middle"><i className="fa fa-linkedin"></i></div></a>
